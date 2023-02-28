@@ -1,0 +1,197 @@
+-------------------------------------------------
+final int MIN_LENGTH = 10_000;
+final int MAX_LENGTH = 100_000;
+final int STEP_SIZE = 10_000;
+final int SAMPLE_SIZE = 5;
+
+	...
+	
+System.out.println(String.format("InsertSort: %d ms", averageInsertSort(SAMPLE_SIZE, arrayLength)));
+//System.out.println(String.format("MergeSort:  %d ms", averageMergeSort(SAMPLE_SIZE, arrayLength)));
+//System.out.println(String.format("JavaSort:   %d ms", averageJavaSort(SAMPLE_SIZE, arrayLength)));
+
+
+-------------------------------------------------
+
+
+Input Length: 10000
+InsertSort: 56 ms
+Input Length: 20000
+InsertSort: 122 ms
+Input Length: 30000
+InsertSort: 316 ms
+Input Length: 40000
+InsertSort: 487 ms
+Input Length: 50000
+InsertSort: 828 ms
+Input Length: 60000
+InsertSort: 1252 ms
+Input Length: 70000
+InsertSort: 1831 ms
+Input Length: 80000
+InsertSort: 2036 ms
+Input Length: 90000
+InsertSort: 2564 ms
+
+
+-------------------------------------------------
+final int MIN_LENGTH = 100_000;
+final int MAX_LENGTH = 5_000_000;
+final int STEP_SIZE = 100_000;
+final int SAMPLE_SIZE = 5;
+
+	...
+
+//System.out.println(String.format("InsertSort: %d ms", averageInsertSort(SAMPLE_SIZE, arrayLength)));
+System.out.println(String.format("MergeSort:  %d ms", averageMergeSort(SAMPLE_SIZE, arrayLength)));
+System.out.println(String.format("JavaSort:   %d ms", averageJavaSort(SAMPLE_SIZE, arrayLength)));
+-------------------------------------------------
+
+
+Input Length: 100000
+MergeSort:  38 ms
+JavaSort:   60 ms
+Input Length: 200000
+MergeSort:  91 ms
+JavaSort:   53 ms
+Input Length: 300000
+MergeSort:  125 ms
+JavaSort:   32 ms
+Input Length: 400000
+MergeSort:  122 ms
+JavaSort:   81 ms
+Input Length: 500000
+MergeSort:  140 ms
+JavaSort:   103 ms
+Input Length: 600000
+MergeSort:  172 ms
+JavaSort:   90 ms
+Input Length: 700000
+MergeSort:  158 ms
+JavaSort:   106 ms
+Input Length: 800000
+MergeSort:  230 ms
+JavaSort:   147 ms
+Input Length: 900000
+MergeSort:  245 ms
+JavaSort:   145 ms
+Input Length: 1000000
+MergeSort:  285 ms
+JavaSort:   184 ms
+Input Length: 1100000
+MergeSort:  334 ms
+JavaSort:   193 ms
+Input Length: 1200000
+MergeSort:  327 ms
+JavaSort:   211 ms
+Input Length: 1300000
+MergeSort:  382 ms
+JavaSort:   235 ms
+Input Length: 1400000
+MergeSort:  428 ms
+JavaSort:   201 ms
+Input Length: 1500000
+MergeSort:  406 ms
+JavaSort:   294 ms
+Input Length: 1600000
+MergeSort:  425 ms
+JavaSort:   284 ms
+Input Length: 1700000
+MergeSort:  560 ms
+JavaSort:   276 ms
+Input Length: 1800000
+MergeSort:  503 ms
+JavaSort:   308 ms
+Input Length: 1900000
+MergeSort:  582 ms
+JavaSort:   313 ms
+Input Length: 2000000
+MergeSort:  540 ms
+JavaSort:   344 ms
+Input Length: 2100000
+MergeSort:  641 ms
+JavaSort:   375 ms
+Input Length: 2200000
+MergeSort:  623 ms
+JavaSort:   373 ms
+Input Length: 2300000
+MergeSort:  736 ms
+JavaSort:   412 ms
+Input Length: 2400000
+MergeSort:  673 ms
+JavaSort:   429 ms
+Input Length: 2500000
+MergeSort:  776 ms
+JavaSort:   397 ms
+Input Length: 2600000
+MergeSort:  777 ms
+JavaSort:   473 ms
+Input Length: 2700000
+MergeSort:  851 ms
+JavaSort:   505 ms
+Input Length: 2800000
+MergeSort:  850 ms
+JavaSort:   516 ms
+Input Length: 2900000
+MergeSort:  747 ms
+JavaSort:   545 ms
+Input Length: 3000000
+MergeSort:  841 ms
+JavaSort:   573 ms
+Input Length: 3100000
+MergeSort:  946 ms
+JavaSort:   547 ms
+Input Length: 3200000
+MergeSort:  945 ms
+JavaSort:   589 ms
+Input Length: 3300000
+MergeSort:  1023 ms
+JavaSort:   638 ms
+Input Length: 3400000
+MergeSort:  995 ms
+JavaSort:   653 ms
+Input Length: 3500000
+MergeSort:  1074 ms
+JavaSort:   554 ms
+Input Length: 3600000
+MergeSort:  1089 ms
+JavaSort:   589 ms
+Input Length: 3700000
+MergeSort:  1114 ms
+JavaSort:   662 ms
+Input Length: 3800000
+MergeSort:  1023 ms
+JavaSort:   722 ms
+Input Length: 3900000
+MergeSort:  1138 ms
+JavaSort:   742 ms
+Input Length: 4000000
+MergeSort:  1166 ms
+JavaSort:   664 ms
+Input Length: 4100000
+MergeSort:  1224 ms
+JavaSort:   771 ms
+Input Length: 4200000
+MergeSort:  1250 ms
+JavaSort:   801 ms
+Input Length: 4300000
+MergeSort:  1309 ms
+JavaSort:   816 ms
+Input Length: 4400000
+MergeSort:  1271 ms
+JavaSort:   784 ms
+Input Length: 4500000
+MergeSort:  1421 ms
+JavaSort:   839 ms
+Input Length: 4600000
+MergeSort:  1481 ms
+JavaSort:   932 ms
+Input Length: 4700000
+MergeSort:  1472 ms
+JavaSort:   787 ms
+Input Length: 4800000
+MergeSort:  1475 ms
+JavaSort:   798 ms
+Input Length: 4900000
+MergeSort:  1462 ms
+JavaSort:   830 ms
